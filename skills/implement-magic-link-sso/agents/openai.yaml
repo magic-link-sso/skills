@@ -1,0 +1,6 @@
+interface:
+    display_name: 'Magic Link SSO Web'
+    short_description: 'Choose SSO integration for web stacks'
+    default_prompt:
+        'Use $implement-magic-link-sso to choose and implement the right Magic Link SSO integration
+        for Next.js, Nuxt, Angular, Fastify, or Django.'
