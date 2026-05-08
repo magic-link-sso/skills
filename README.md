@@ -1,8 +1,9 @@
 # Magic Link SSO Skills
 
-Agent-agnostic [skills.sh](https://skills.sh/) skills for implementing,
-comparing, and troubleshooting [Magic Link SSO](https://github.com/magic-link-sso/magic-sso)
-across supported web stacks.
+Agent-agnostic [skills.sh](https://skills.sh/) skills for setting up,
+implementing, comparing, and troubleshooting
+[Magic Link SSO](https://github.com/magic-link-sso/magic-sso) across supported
+deployment shapes and web stacks.
 
 This repository is structured for the open Agent Skills ecosystem, so the same
 skill pack can be installed for Codex, Claude, Gemini, and other agents that
@@ -45,6 +46,19 @@ It acts as a dispatcher skill: detect the framework, open the matching bundled
 reference, apply the shared checklist, and avoid re-deriving the integration
 from scratch.
 
+### `setup-magic-link-sso`
+
+Guides self-hosting setup and operator decisions for:
+
+- the Magic Link SSO server in classic mode
+- Magic Link SSO Gate in front of private upstreams
+- the optional manager in managed mode
+- local evaluation versus production-like deployment shapes
+
+It acts as a setup dispatcher skill: choose the right infrastructure path, read
+only the relevant setup references, validate the deployment shape, and hand off
+framework-specific app wiring to `implement-magic-link-sso`.
+
 ## Repo Layout
 
 This repo follows the layout that `skills` discovers by default:
@@ -55,6 +69,9 @@ skills/
     SKILL.md
     references/
     agents/
+  setup-magic-link-sso/
+    SKILL.md
+    references/
 ```
 
 Core compatibility comes from `skills/<skill-name>/SKILL.md` with YAML

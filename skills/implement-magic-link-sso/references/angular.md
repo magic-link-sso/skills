@@ -20,8 +20,9 @@ MAGICSSO_PREVIEW_SECRET=your_preview_secret
 MAGICSSO_SERVER_URL=http://localhost:3000
 ```
 
-The bundled repository example in `examples/angular/.env.example` uses the local
-server defaults:
+The bundled repository example in
+[examples/angular/.env.example](https://github.com/magic-link-sso/magic-sso/blob/main/examples/angular/.env.example)
+uses the local server defaults:
 
 ```env
 MAGICSSO_JWT_SECRET=VERY-VERY-LONG-RANDOM-JWT-SECRET

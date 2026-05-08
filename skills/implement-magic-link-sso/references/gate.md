@@ -46,10 +46,12 @@ The upstream does not need to know about Magic Link SSO.
 
 For implementation or operator guidance, use:
 
-- `docs/gate.md`
-- `gate/README.md`
+- [docs/gate.md](https://github.com/magic-link-sso/magic-sso/blob/main/docs/gate.md)
+- [gate/README.md](https://github.com/magic-link-sso/magic-sso/blob/main/gate/README.md)
 
 For repository examples, see:
 
-- `examples/gate-private1-app` for a dynamic upstream
-- `examples/gate-private2-static` for a static site
+- [examples/gate-private1-app](https://github.com/magic-link-sso/magic-sso/tree/main/examples/gate-private1-app)
+  for a dynamic upstream
+- [examples/gate-private2-static](https://github.com/magic-link-sso/magic-sso/tree/main/examples/gate-private2-static)
+  for a static site
